@@ -326,7 +326,7 @@ div.flex-container2{
     transform:scale(0.85em);
   }
   .container span{
-    max-width:30vw;
+    max-width:25vw;
     height:11.25em;
     transform: rotateY(calc(var(--i) * 40deg)) translateZ(12em); /*changed from 17em, pushes images away from each other a bit.*/
   }
@@ -338,6 +338,7 @@ div.flex-container2{
   }
   .container span img{
     max-height:6em;
+    max-width:20vw;
   }
   
   nav ul{
@@ -376,5 +377,6 @@ div.flex-container2{
     padding: 0.3em 0.5em;
   }
 }
+
 
 
