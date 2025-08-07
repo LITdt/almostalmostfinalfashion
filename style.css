@@ -327,7 +327,7 @@ div.flex-container2{
   .container span{
     max-width:30vw;
     height:11.25em;
-    transform: rotateY(calc(var(--i) * 40deg)) translateZ(20em); /*changed from 17em, pushes images away from each other a bit.*/
+    transform: rotateY(calc(var(--i) * 40deg)) translateZ(12em); /*changed from 17em, pushes images away from each other a bit.*/
   }
   .container{
     width:100%; /*adapts carousel container to full width*/
@@ -375,3 +375,4 @@ div.flex-container2{
     padding: 0.3em 0.5em;
   }
 }
+
