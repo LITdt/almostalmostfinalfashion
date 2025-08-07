@@ -323,6 +323,7 @@ div.flex-container2{
     aspect-ratio: 4/1;
     padding-bottom:0.625em;
     margin-top:3em;
+    transform:scale(0.85em);
   }
   .container span{
     max-width:30vw;
@@ -336,7 +337,7 @@ div.flex-container2{
 
   }
   .container span img{
-    height:8.75em;
+    max-height:6em;
   }
   
   nav ul{
@@ -375,4 +376,5 @@ div.flex-container2{
     padding: 0.3em 0.5em;
   }
 }
+
 
